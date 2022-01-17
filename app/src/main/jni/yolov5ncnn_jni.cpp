@@ -322,11 +322,11 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_yolov5ncnn_YoloV5Ncnn_Init(JNIEnv* e
 
     yolov5.opt = opt;
 
-    yolov5.register_custom_layer("YoloV5Focus", YoloV5Focus_layer_creator);
+    //yolov5.register_custom_layer("YoloV5Focus", YoloV5Focus_layer_creator);
 
     // init param
     {
-        int ret = yolov5.load_param(mgr, "yolov5s.param");
+        int ret = yolov5.load_param(mgr, "yolo5s_logo6-sim-opt-fp16.param");
         if (ret != 0)
         {
             __android_log_print(ANDROID_LOG_DEBUG, "YoloV5Ncnn", "load_param failed");
@@ -336,7 +336,7 @@ JNIEXPORT jboolean JNICALL Java_com_tencent_yolov5ncnn_YoloV5Ncnn_Init(JNIEnv* e
 
     // init bin
     {
-        int ret = yolov5.load_model(mgr, "yolov5s.bin");
+        int ret = yolov5.load_model(mgr, "yolo5s_logo6-sim-opt-fp16.bin");
         if (ret != 0)
         {
             __android_log_print(ANDROID_LOG_DEBUG, "YoloV5Ncnn", "load_model failed");
@@ -448,7 +448,7 @@ JNIEXPORT jobjectArray JNICALL Java_com_tencent_yolov5ncnn_YoloV5Ncnn_Detect(JNI
         // stride 16
         {
             ncnn::Mat out;
-            ex.extract("781", out);
+            ex.extract("375", out);
 
             ncnn::Mat anchors(6);
             anchors[0] = 30.f;
@@ -467,7 +467,7 @@ JNIEXPORT jobjectArray JNICALL Java_com_tencent_yolov5ncnn_YoloV5Ncnn_Detect(JNI
         // stride 32
         {
             ncnn::Mat out;
-            ex.extract("801", out);
+            ex.extract("400", out);
 
             ncnn::Mat anchors(6);
             anchors[0] = 116.f;
