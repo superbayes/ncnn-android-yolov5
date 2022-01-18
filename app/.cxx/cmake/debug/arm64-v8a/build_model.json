@@ -1,0 +1,68 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5",
+      "sdkFolder": "D:\\ProgramData\\androidStudio\\sdk\\android-sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app",
+      "makeFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\.cxx",
+      "cxxFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx",
+      "ndkFolder": "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\ndk-bundle",
+      "ndkVersion": "22.1.7171670",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "debug",
+    "soFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 24,
+  "cxxBuildFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+  "jsonFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cxx\\debug\\arm64-v8a",
+  "objFolder": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "buildCommandFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cxx\\debug\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cxx\\debug\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cxx\\debug\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\arm64-v8a\\compile_commands.json"
+}

@@ -1,0 +1,31 @@
+{
+  "buildFiles": [
+    "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\ndk-bundle\\build\\cmake\\compiler_id.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets-release.cmake",
+    "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn-release.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\CMakeLists.txt",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets-release.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets-release.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\glslangTargets.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets-release.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\SPIRVTargets.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\ncnn\\ncnn.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\OGLCompilerTargets.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\arm64-v8a\\lib\\cmake\\OSDependentTargets.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov5ncnn-Debug-arm64-v8a": {
+      "artifactName": "yolov5ncnn",
+      "buildCommand": "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\arm64-v8a\" yolov5ncnn",
+      "abi": "arm64-v8a",
+      "output": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libyolov5ncnn.so"
+    }
+  }
+}

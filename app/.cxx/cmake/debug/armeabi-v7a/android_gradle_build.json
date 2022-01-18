@@ -1,0 +1,54 @@
+{
+  "stringTable": {
+    "0": "F:/MyCode/androidStudio/NN/ncnn-android-yolov5/app/.cxx/cmake/debug/armeabi-v7a",
+    "1": "--target=armv7-none-linux-androideabi24 --gcc-toolchain=D:/ProgramData/androidStudio/sdk/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/ProgramData/androidStudio/sdk/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dyolov5ncnn_EXPORTS -isystem F:/MyCode/androidStudio/NN/ncnn-android-yolov5/app/src/main/jni/ncnn-20211208-android-vulkan/armeabi-v7a/include/ncnn -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC -fno-rtti -fno-exceptions"
+  },
+  "buildFiles": [
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\SPIRVTargets.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\ncnn\\ncnn-release.cmake",
+    "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\ndk-bundle\\build\\cmake\\android.toolchain.cmake",
+    "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\ndk-bundle\\build\\cmake\\compiler_id.cmake",
+    "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\ndk-bundle\\build\\cmake\\platforms.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\ncnn\\ncnnConfig.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\SPIRVTargets-release.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\OSDependentTargets-release.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\glslangTargets-release.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\CMakeLists.txt",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\OGLCompilerTargets-release.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\ncnn\\ncnn.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\OGLCompilerTargets.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\glslangTargets.cmake",
+    "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\ncnn-20211208-android-vulkan\\armeabi-v7a\\lib\\cmake\\OSDependentTargets.cmake"
+  ],
+  "cleanCommands": [
+    "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "yolov5ncnn-Debug-armeabi-v7a": {
+      "buildCommand": "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\.cxx\\cmake\\debug\\armeabi-v7a\" yolov5ncnn",
+      "buildType": "debug",
+      "toolchain": "3059861362",
+      "abi": "armeabi-v7a",
+      "artifactName": "yolov5ncnn",
+      "files": [
+        {
+          "src": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\src\\main\\jni\\yolov5ncnn_jni.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "F:\\MyCode\\androidStudio\\NN\\ncnn-android-yolov5\\app\\build\\intermediates\\cmake\\debug\\obj\\armeabi-v7a\\libyolov5ncnn.so"
+    }
+  },
+  "toolchains": {
+    "3059861362": {
+      "cppCompilerExecutable": "D:\\ProgramData\\androidStudio\\sdk\\android-sdk\\ndk-bundle\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
